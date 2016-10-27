@@ -42,12 +42,12 @@ notSure = false;
 //void
 let unusable: void = undefined;
 
-// let u: undefined = undefined;
-// let n: null = null;
+let u: undefined = undefined;
+let n: null = null;
 
 //never
 
-// function infiniteLoop(): never {
-//     while (true) {
-//     }
-// }
+function infiniteLoop(): never {
+    while (true) {
+    }
+}

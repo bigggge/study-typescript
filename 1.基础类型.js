@@ -32,11 +32,11 @@ notSure = 'maybe';
 notSure = false;
 //void
 var unusable = undefined;
-// let u: undefined = undefined;
-// let n: null = null;
+var u = undefined;
+var n = null;
 //never
-// function infiniteLoop(): never {
-//     while (true) {
-//     }
-// } 
-//# sourceMappingURL=hello-typescript.js.map
+function infiniteLoop() {
+    while (true) {
+    }
+}
+//# sourceMappingURL=1.基础类型.js.map
